@@ -25,3 +25,8 @@
 - `git remote add <NAME> <URL>`: <NAME=origin> point to the remote
 - `git push <WHERE> <WHAT>` : local -> remote
 - `git pull <WHERE> <WHAT>` : remote -> local
+
+## fix branches
+1. git checkout -b main
+2. git push origin main
+3. fix branch names on github
