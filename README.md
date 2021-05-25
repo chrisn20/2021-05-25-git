@@ -19,3 +19,9 @@
 - HEAD :  where we are at currently  
 - .gitkeep : convention to create this as a file in an empty directory that should be tracked/kept in the repo
 - .gitignore : for files that shouldn't be committed - e.g. data files, temporary/auxilliary files/compiled binaries/etc
+
+
+## remotes
+- `git remote add <NAME> <URL>`: <NAME=origin> point to the remote
+- `git push <WHERE> <WHAT>` : local -> remote
+- `git pull <WHERE> <WHAT>` : remote -> local
