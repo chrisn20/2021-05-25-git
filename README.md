@@ -8,4 +8,10 @@
 	- `git log --oneline` : condensed history
 - `git diff` : shows you changes since last known state
 	- `git diff --staged` : shows you changes of what's in staging vs last commit
-  
+- `git checkout <commitID> <FILE>` : retrieve <commitID> version of <FILE>
+- `git checkout <commitID>` : move HEAD to <commitID>, for whole repo. Useful if wanting to run code from a specific time
+	- `git checkout main|master` : get back to last commit for branch name
+	- `git switch` : newer version of doing checkout?
+
+
+HEAD :  where we are at currently  
