@@ -8,12 +8,14 @@
 	- `git log --oneline` : condensed history
 - `git diff` : shows you changes since last known state
 	- `git diff --staged` : shows you changes of what's in staging vs last commit
-- `git checkout <commitID> <FILE>` : retrieve <commitID> version of <FILE>
-- `git checkout <commitID>` : move HEAD to <commitID>, for whole repo. Useful if wanting to run code from a specific time
+	- `git diff HEAD~2` : diff 2 commits ago
+	- `git diff <SHA> <FILE>` : diff a file against a specific commit
+- `git checkout <SHA> <FILE>` : retrieve <SHA> version of <FILE>
+- `git checkout <SHA>` : move HEAD to <SHA>, for whole repo. Useful if wanting to run code from a specific time
 	- `git checkout main|master` : get back to last commit for branch name
 	- `git switch` : newer version of doing checkout?
 
 
-HEAD :  where we are at currently  
-.gitkeep : convention to create this as a file in an empty directory that should be tracked/kept in the repo
-.gitignore : for files that shouldn't be committed - e.g. data files, temporary/auxilliary files/compiled binaries/etc
+- HEAD :  where we are at currently  
+- .gitkeep : convention to create this as a file in an empty directory that should be tracked/kept in the repo
+- .gitignore : for files that shouldn't be committed - e.g. data files, temporary/auxilliary files/compiled binaries/etc
