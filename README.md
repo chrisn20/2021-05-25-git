@@ -49,5 +49,9 @@ Branches are useful for prototyping new code whilst preserving known last good v
 
 To merge branches, switch to the branch to merge changes into and run `git merge <BRANCH>` where <BRANCH> is the branch to merge from.
 
-## Pull Requests
+### Pull Requests
 - Pull requests are a way to merge branches on GitHub. 
+
+### Cleanup branches
+- `git fetch --prune` : updates the information from github, and deletes local branches that no longer exist on remote
+
