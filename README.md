@@ -46,3 +46,5 @@ Branches are useful for prototyping new code whilst preserving known last good v
 - `git branch -d <BRANCH>` : delete  <BRANCH>. Add -r flag for remote branches
 - `git checkout <BRANCH>` : switch to <BRANCH>
 - `git checkout -b <BRANCH>` : create new <BRANCH> and switch to it 
+
+To merge branches, switch to the branch to merge changes into and run `git merge <BRANCH>` where <BRANCH> is the branch to merge from.
