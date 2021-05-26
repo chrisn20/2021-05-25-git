@@ -40,6 +40,7 @@
 Useful for additional documentation or information about the project
 
 ## branches
+Branches are useful for prototyping new code whilst preserving known last good versions of code in the main branch. Changes in the branch will only be visible in the branch until merged/pulled back into the main branch.
 - `git branch <BRANCH>` : create new branch called <BRANCH>
 - `git branch -a` : list all branches
 - `git branch -d <BRANCH>` : delete  <BRANCH>. Add -r flag for remote branches
