@@ -30,3 +30,8 @@
 1. git checkout -b main
 2. git push origin main
 3. fix branch names on github
+
+## github project management
+- `issues` can be used to track tasks and things that need doing
+- `labels` can be applied to issues to give more context about the issue - i.e. the issue may be a bug to fix, enhancements/new features to add, or other
+- issues can be grouped into `milestones` of similar issues or to sign-point when particular issues may be addressed
