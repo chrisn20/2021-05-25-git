@@ -38,3 +38,8 @@
 
 ## github wikis
 Useful for additional documentation or information about the project
+
+## working with VSCODE and git
+- VSCODE has a GUI to interface with git, which can help manage staging, commits, pushes/pulls, and merges
+- However, if a command line experience is preferred, it is also possible to use the git commands in the integrated terminal
+- The GUI will reflect commands ran in the terminal, so everything lines up very nicely! Good job, Microsoft!
