@@ -39,6 +39,23 @@
 ## github wikis
 Useful for additional documentation or information about the project
 
+## branches
+Branches are useful for prototyping new code whilst preserving known last good versions of code in the main branch. Changes in the branch will only be visible in the branch until merged/pulled back into the main branch.
+- `git branch <BRANCH>` : create new branch called <BRANCH>
+- `git branch -a` : list all branches
+- `git branch -d <BRANCH>` : delete  <BRANCH>. Add -r flag for remote branches
+- `git checkout <BRANCH>` : switch to <BRANCH>
+- `git checkout -b <BRANCH>` : create new <BRANCH> and switch to it 
+
+To merge branches, switch to the branch to merge changes into and run `git merge <BRANCH>` where <BRANCH> is the branch to merge from.
+
+### Pull Requests
+- Pull requests are a way to merge branches on GitHub. 
+
+### Cleanup branches
+- `git fetch --prune` : updates the information from github, and deletes local branches that no longer exist on remote
+
+
 ## working with VSCODE and git
 - VSCODE has a GUI to interface with git, which can help manage staging, commits, pushes/pulls, and merges
 - However, if a command line experience is preferred, it is also possible to use the git commands in the integrated terminal
