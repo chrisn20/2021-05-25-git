@@ -70,6 +70,7 @@ Once changes have been merged into main, it may be necessary to rebase the devel
 - The GUI will reflect commands ran in the terminal, so everything lines up very nicely! Good job, Microsoft!
 
 ## Workflows
+- Principles of workflows in git are captured in what is called `git flow`
 - Could have main branch, then development branch, then feature branch.
 - Development branch used to track development. Individual features are created as branches from development and merged back in.
 - Once development branch is stable and ready for a release, these can be merge back into the main branch.
