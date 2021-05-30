@@ -73,3 +73,6 @@ Once changes have been merged into main, it may be necessary to rebase the devel
 - Could have main branch, then development branch, then feature branch.
 - Development branch used to track development. Individual features are created as branches from development and merged back in.
 - Once development branch is stable and ready for a release, these can be merge back into the main branch.
+
+### Bug-fixes/hotfixes
+- For urgent bug fixes/hotfixes, workflow might be to create a hotfix branch and then merge straight into master
