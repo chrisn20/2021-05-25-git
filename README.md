@@ -75,4 +75,5 @@ Once changes have been merged into main, it may be necessary to rebase the devel
 - Once development branch is stable and ready for a release, these can be merge back into the main branch.
 
 ### Bug-fixes/hotfixes
-- For urgent bug fixes/hotfixes, workflow might be to create a hotfix branch and then merge straight into master
+- For urgent bug fixes/hotfixes, workflow might be to create a hotfix branch and then merge straight into main.
+- However, this may result in branches being all over the place! And the development branch may then be in a different state to main.
