@@ -60,3 +60,8 @@ To merge branches, switch to the branch to merge changes into and run `git merge
 - VSCODE has a GUI to interface with git, which can help manage staging, commits, pushes/pulls, and merges
 - However, if a command line experience is preferred, it is also possible to use the git commands in the integrated terminal
 - The GUI will reflect commands ran in the terminal, so everything lines up very nicely! Good job, Microsoft!
+
+## Workflows
+- Could have main branch, then development branch, then feature branch.
+- Development branch used to track development. Individual features are created as branches from development and merged back in.
+- Once development branch is stable and ready for a release, these can be merge back into the main branch.
