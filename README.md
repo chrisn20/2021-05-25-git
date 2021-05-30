@@ -50,6 +50,13 @@ Branches are useful for prototyping new code whilst preserving known last good v
 
 To merge branches, switch to the branch to merge changes into and run `git merge <BRANCH>` where <BRANCH> is the branch to merge from.
 
+Once changes have been merged into main, it may be necessary to rebase the development branch to bring this in line with main:
+- `git checkout development` : to switch to development branch
+- `git rebase main` : to rebase development branch to main
+- `git push origin development` : to push development back to github
+
+- `git log --oneline --all --decorate --graph` : useful way of showing a graphical view of all branches. Can be aliased to `gl`
+
 ### Pull Requests
 - Pull requests are a way to merge branches on GitHub. 
 
